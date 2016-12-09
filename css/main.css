@@ -54,6 +54,10 @@ h2 {
 
 }
 
+.menu {
+  background-color: #f8deeb;
+}
+
 .card {
   cursor: pointer;
   display: inline-block;
@@ -68,8 +72,42 @@ h2 {
   background-color: red;
 }
 
+.about {
+  background-color: #ec97c0;
+  color: white;
+}
+
 .contact {
   background-color: #f8deeb;
+  color: #ec97c0;
+}
+
+.location {
+  background-color: #f8deeb;
+  color: #ec97c0;
+}
+
+.hours {
+  background-color: #ec97c0;
+  color: white;
+}
+
+.btn {
+  background-color: #ec97c0;
+  border-color: #ec97c0;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #ec97c0;
+  background-color: #f8deeb;
+  border-color: #f8deeb;
+
+}
+
+.footer {
+  background-color: #ec97c0;
+  color: white;
 }
 
 @media only screen and (min-width: 60em) {
