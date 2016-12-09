@@ -2,6 +2,10 @@ html {
   font-family: Lato, sans-serif;
 }
 
+h2 {
+  font-family: 'Lobster', cursive;
+}
+
 .masthead {
   background-color: #ec97c0;
   border-bottom: 3px solid #f8deeb;
@@ -31,6 +35,41 @@ html {
   background-color: #f8deeb;
   border-color: #f8deeb;
   border-width: 3px;
+}
+
+.banner {
+  color: #fff;
+  background-image: linear-gradient(to bottom, transparent, rgba(236, 151, 192, 0), rgba(236, 151, 192, 5)), url("../images/banner.jpg");
+  border-bottom: solid 3px #f8deeb;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.banner-content {
+  background-image: url("../images/cupcake.svg");
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  background-size: 100px;
+  padding-top: 300px;
+
+}
+
+.card {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #ec97c0;
+  border-radius: 8px;
+  border: 3px solid #ec97c0;
+  color: white;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: red;
+}
+
+.contact {
+  background-color: #f8deeb;
 }
 
 @media only screen and (min-width: 60em) {
