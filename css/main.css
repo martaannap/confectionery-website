@@ -1,0 +1,46 @@
+html {
+  font-family: Lato, sans-serif;
+}
+
+.masthead {
+  background-color: #ec97c0;
+  border-bottom: 3px solid #f8deeb;
+  border-top: 3px solid #f8deeb;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ec97c0;
+  border: 3px solid #ec97c0;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  color: #ec97c0;
+  background-color: #f8deeb;
+  border-color: #f8deeb;
+  border-width: 3px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
