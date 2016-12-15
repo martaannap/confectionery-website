@@ -3,7 +3,7 @@ html {
 }
 
 h2 {
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 .masthead {
@@ -15,7 +15,7 @@ h2 {
 
 .logo {
   text-align: center;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 .nav {
