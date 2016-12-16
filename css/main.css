@@ -1,5 +1,5 @@
 html {
-  font-family: Lato, sans-serif;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -83,6 +83,8 @@ h2 {
 .contact {
   background-color: #f8deeb;
   color: #ec97c0;
+  background-image: url("../images/cupcakeicon.svg");
+  background-size: 70px;
 }
 
 .location {
